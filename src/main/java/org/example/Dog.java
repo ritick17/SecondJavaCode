@@ -1,11 +1,13 @@
 package org.example;
 
-import java.net.SocketOption;
-
 public class Dog {
     String name;
     String breed;
     int age;
+    Dog(){}
+    Dog(String breed){
+        this.breed=breed;
+    }
     public void bark(){
         System.out.println("Dog is berking");
     }
